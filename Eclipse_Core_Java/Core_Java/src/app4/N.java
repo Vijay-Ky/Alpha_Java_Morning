@@ -1,3 +1,5 @@
+package app4;
+
 class N
 {
 	public static void main(String[] args)
@@ -9,6 +11,5 @@ class N
 		}
 		System.out.println("end of main");
 		System.out.println(flag);
-
 	}
 }
