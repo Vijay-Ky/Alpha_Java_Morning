@@ -1,3 +1,5 @@
+package app6;
+
 class K
 {
 	public static void main(String[] args)
@@ -9,9 +11,9 @@ class K
 	}
 }
 /*
-0 : 10
-1 : 9
-2 : 8
-3 : 7
-4 : 6
+0:10
+1:9
+2:8
+3:7
+4:6
 */

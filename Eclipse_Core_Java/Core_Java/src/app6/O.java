@@ -1,3 +1,5 @@
+package app6;
+
 class O
 {
 	public static void main(String[] args)
@@ -13,6 +15,5 @@ class O
 	}
 }
 /*
-i = 0,1,2,3,4,5
-j =  20,19,18,17,16,15
+
 */

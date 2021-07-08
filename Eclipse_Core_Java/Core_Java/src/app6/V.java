@@ -1,17 +1,21 @@
+package app6;
+
 class V
 {
 	public static void main(String[] args)
 	{
-		loop1:
+		outer:
 		for(int i = 0; i < 2; i++)
 		{
 			System.out.println("loop1 begin");
+			inner:
 			for(int j = 0; j < 5; j++)
 			{
 				System.out.println("loop2 begin");
 				if(j > 2)
 				{
-					continue loop1;
+					break outer;
+					//continue outer;
 				}
 				System.out.println("loop2 end");
 			}

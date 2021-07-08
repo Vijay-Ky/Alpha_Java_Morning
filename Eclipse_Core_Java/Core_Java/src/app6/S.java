@@ -1,3 +1,5 @@
+package app6;
+
 class S
 {
 	public static void main(String[] args)
@@ -8,7 +10,7 @@ class S
 			if(i > 5)
 			{
 				break;
-				System.out.println("if block");
+				//System.out.println("if block");
 			}
 			System.out.println("loop end");
 		}

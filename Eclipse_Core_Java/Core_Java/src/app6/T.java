@@ -1,3 +1,5 @@
+package app6;
+
 class T
 {
 	public static void main(String[] args)

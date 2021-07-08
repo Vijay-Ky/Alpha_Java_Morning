@@ -1,3 +1,5 @@
+package app6;
+
 class U
 {
 	public static void main(String[] args)

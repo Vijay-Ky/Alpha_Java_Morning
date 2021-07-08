@@ -1,3 +1,5 @@
+package app6;
+
 class R
 {
 	public static void main(String[] args)
@@ -14,3 +16,19 @@ class R
 		System.out.println("main end");
 	}
 }
+/*
+ loop begin
+ loop end
+ loop begin
+ loop end
+ loop begin
+ loop end
+ loop begin
+ loop end
+ loop begin
+ loop end
+ loop begin
+ loop end
+ loop begin
+ main end
+ */
