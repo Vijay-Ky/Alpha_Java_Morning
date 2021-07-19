@@ -1,0 +1,18 @@
+package app9;
+
+public class P {
+
+	public static void main(String[] args) {
+		System.out.println("from main");
+		System.out.println(test1());
+		test1();
+		return;
+	}
+	
+	public static void test1()
+	{
+		System.out.println("from test1");
+		return;
+	}
+
+}
