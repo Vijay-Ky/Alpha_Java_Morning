@@ -1,0 +1,25 @@
+package app12;
+
+public class Dog {
+
+	//property
+	String name;
+	int age;
+	double weight;
+	String breed;
+	String color;
+	String gender;
+	
+	
+	//behavior 
+	public 
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
