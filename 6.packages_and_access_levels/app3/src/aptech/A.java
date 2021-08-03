@@ -1,6 +1,5 @@
 package aptech;
 class A
 {
-	int i;
+	int i;//default(friendly)
 }
- 

@@ -30,6 +30,6 @@ class G implements D, E, F
 		g1.test1();
 		g1.test2();
 		g1.test3();
-		System.out.println("done");
+		System.out.println("30-07-2021;
 	}
 }

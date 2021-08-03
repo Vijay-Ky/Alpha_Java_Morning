@@ -32,7 +32,7 @@ class X extends W
 	}
 	public static void main(String[]args)
 	{
-		X obj =new X();
+		X obj = new X();
 		obj.test1();
 		obj.test2(20);
 		obj.test4();

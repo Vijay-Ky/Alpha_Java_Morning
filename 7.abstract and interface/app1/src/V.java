@@ -1,4 +1,4 @@
-abstract class V
+abstract class V 
 {
 	V()
 	{

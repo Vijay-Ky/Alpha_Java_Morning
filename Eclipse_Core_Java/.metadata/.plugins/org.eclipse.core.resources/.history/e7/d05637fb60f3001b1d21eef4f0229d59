@@ -1,0 +1,20 @@
+package app14;
+
+class B 
+{
+	static void add(int i, int j)
+	{
+		System.out.println("add 2 no. " + i + j);
+	}
+	static void add(int i, int j, int k)
+	{
+		System.out.println("add 3 no. " +  i + j + k);
+	}
+
+	public static void main(String[] args) 
+	{
+		add(90, 100);
+		add(90, 100, 100);
+		System.out.println("done");
+	}
+}

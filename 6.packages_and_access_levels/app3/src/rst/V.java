@@ -8,7 +8,7 @@ class V extends N
 		N n2 = new N();
 		N n3 = new N();
 		N n4 = new N();
-		//System.out.println(n1.i);
+		System.out.println(n1.i);
 		System.out.println("done");
 	}
 }

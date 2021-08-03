@@ -14,7 +14,7 @@ class R extends P
 class S extends R
 {
 }
-class T
+class T extends S
 {
 	public static void main(String[]args)
 	{
@@ -28,6 +28,9 @@ class T
 		System.out.println("------");
 		S s1 = new S();
 		s1.test1();
+		System.out.println("------");
+		T t1 = new T();
+		t1.test1();
 		System.out.println("------");
 	}
 }

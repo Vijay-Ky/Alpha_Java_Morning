@@ -6,5 +6,6 @@ class H extends G
 		H h1 = new H();
 		System.out.println(h1.j);
 		System.out.println(h1.k);
+
 	}
 }

@@ -2,7 +2,7 @@ package pack1;
 class F 
 {
 	private static int i = 90;
-	static void test()
+	private static void test()
 	{
 		System.out.println(i);
 	}

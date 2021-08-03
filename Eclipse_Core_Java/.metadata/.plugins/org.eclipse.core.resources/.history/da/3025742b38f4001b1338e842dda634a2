@@ -1,0 +1,13 @@
+package app14;
+
+//byte < short < int < long < float < double
+class A
+{
+	public static void main(String[]args)
+	{
+		double d1 = 12.9;
+		int i = (int)d1;
+		System.out.println(d1);
+		System.out.println(i);
+	}
+}

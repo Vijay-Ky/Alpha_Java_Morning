@@ -6,7 +6,7 @@ interface B
 {
 	void test2();
 }
-class C implements A,B
+class C implements A, B
 {
 	public void test1()
 	{

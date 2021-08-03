@@ -9,3 +9,6 @@ interface C
 	abstract void test3();
 	abstract void test4();
 }
+
+
+//public - default - protected - private
