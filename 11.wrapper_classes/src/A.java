@@ -1,10 +1,12 @@
 class A 
 {
-	int i;
+	int i = 20;
+
 	public String toString()
 	{
-		return ""+ i;
+		return "" + i;
 	}
+	
 	public static void main(String[] args) 
 	{
 		A a1 = new A();

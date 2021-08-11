@@ -1,0 +1,23 @@
+package app14;
+
+class M1
+{
+	public static void main(String [] args)
+	{
+		int i = 0;
+		Integer obj = new Integer(i);//boxing
+		i = obj.intValue();//un-boxing
+		System.out.println(i);
+		System.out.println("done");
+	}
+}	
+//primitive data type      Wrapper classes 
+//-----------------------    --------------------
+// 1.byte                      Byte
+//2.short                    Short
+// .3int						Integer
+//   4.long					Long
+//   5.float					Float
+// 6.double					Double
+ //7.char					Character
+// 8.boolean				Boolean 

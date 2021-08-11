@@ -1,0 +1,10 @@
+package app14;
+
+public static void main(String [] args)
+{
+	int i = 0;
+	Integer obj = new Integer(i);//boxing
+	int k = obj.intValue();//un-boxing
+	System.out.println(k);
+	System.out.println("done");
+}

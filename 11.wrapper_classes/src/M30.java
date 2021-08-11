@@ -7,7 +7,7 @@ public class M30
 		//d1 is the reference type
 		test(d1);
 		//boxing d2 and making Double object
-		test(new Double(d2));
+		test(new Double(10.2));
 	}
 	static void test(Double obj)
 	{

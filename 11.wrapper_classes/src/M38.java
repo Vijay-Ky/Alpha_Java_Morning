@@ -14,5 +14,6 @@ public class M38
 	{
 		int i = 20;
 		test(i);
+		test(i);
 	}
 }
