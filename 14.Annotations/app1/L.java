@@ -1,5 +1,3 @@
-package app1;
-
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;
 

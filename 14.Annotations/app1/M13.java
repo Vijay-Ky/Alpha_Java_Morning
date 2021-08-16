@@ -1,5 +1,3 @@
-package app1;
-
 //this annotation moving into class file also, i,e not limited to source file
 @M(message = "abc")
 class M13 

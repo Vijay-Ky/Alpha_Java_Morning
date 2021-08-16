@@ -1,5 +1,3 @@
-package app1;
-
 class M12
 {
 	@L(message = "abc")

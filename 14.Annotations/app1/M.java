@@ -1,8 +1,7 @@
-package app1;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-@Retention(RetentionPolicy.CLASS)//another meta annotation
+@Retention(RetentionPolicy.SOURCE)//another meta annotation
 @interface M 
 {
 	String message();

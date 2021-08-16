@@ -11,7 +11,7 @@ class R7
 			try
 			{
 			}
-			catch (ArithmeticException ex1)
+			catch (NullPointerException ex1)
 			{
 			}
 		}

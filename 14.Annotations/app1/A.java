@@ -1,5 +1,3 @@
-package app1;
-
 @interface A
 {
 	//void test1();

@@ -1,5 +1,3 @@
-package app1;
-
 @interface H
 {
 	int version() default 1;//while declaring setting default value

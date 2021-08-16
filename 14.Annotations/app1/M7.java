@@ -1,5 +1,3 @@
-package app1;
-
 @interface I
 {
 	int version() default 1;

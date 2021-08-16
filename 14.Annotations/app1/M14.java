@@ -1,5 +1,3 @@
-package app1;
-
 @N(message = "abc")
 class M14
 {

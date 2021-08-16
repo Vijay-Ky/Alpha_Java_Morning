@@ -1,5 +1,3 @@
-package app1;
-
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Annotation;
@@ -31,7 +29,7 @@ class M16 extends S //only Q is inherited not R
 {
 	public static void main(String[] args) throws Exception
 	{
-		Class c1 = Class.forName("app1.M16");//loading explicitely
+		Class c1 = Class.forName("M16");//loading explicitely
 		Annotation[] annotations = c1.getAnnotations();
 		for(Annotation annotation : annotations)
 		{

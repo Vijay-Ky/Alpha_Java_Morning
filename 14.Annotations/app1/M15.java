@@ -1,5 +1,3 @@
-package app1;
-
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Annotation;
@@ -26,7 +24,7 @@ class M15
 {
 	public static void main(String[] args) throws Exception
 	{
-		Class c1 = Class.forName("app1.M15");//loading explicitely
+		Class c1 = Class.forName("M15");//loading explicitely
 		Annotation[] annotations = c1.getAnnotations();
 		for(Annotation annotation : annotations)
 		{

@@ -1,5 +1,3 @@
-package app1;
-
 @interface C
 {	
 	//method declaration and method return type is String
@@ -7,7 +5,7 @@ package app1;
 }
 
 //through return type we can provide a description
-@C(someDesc="some desc about C")
+@C(someDesc="100")
 class M1
 {
 	@C(someDesc="some desc about main")

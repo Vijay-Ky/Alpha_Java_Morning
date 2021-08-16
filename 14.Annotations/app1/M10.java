@@ -1,5 +1,3 @@
-package app1;
-
 @interface K
 {
 	//annotations can have return type as primitive array

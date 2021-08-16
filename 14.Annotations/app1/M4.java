@@ -1,5 +1,3 @@
-package app1;
-
 @interface F
 {
 	int version();
@@ -10,7 +8,7 @@ package app1;
 class M4
 {
 	//CTE
-	//@F(version = 4)
+	//@F(version = 4)	
 	public static void main(String[] args)
 	{
 		System.out.println("done");

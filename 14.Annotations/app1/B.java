@@ -1,7 +1,5 @@
-package app1;
-
 @interface B
 {
-	//Integer test();
+	Integer test();
 }
 //annotation method cannot return wrapper type.

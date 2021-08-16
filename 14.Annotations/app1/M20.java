@@ -1,5 +1,3 @@
-package app1;
-
 import java.util.ArrayList;
 
 @SuppressWarnings({"unchecked", "deprecation"})
