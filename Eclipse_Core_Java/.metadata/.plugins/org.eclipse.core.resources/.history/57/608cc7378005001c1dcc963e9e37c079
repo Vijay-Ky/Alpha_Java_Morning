@@ -1,0 +1,56 @@
+package app17;
+
+//static methods in synchronization
+class A
+{
+	
+	//as it is static method required class lock
+	//every class will be having only one class lock
+	synchronized static void test1()
+	{
+		Thread t1 = Thread.currentThread();
+		t1.getId();
+		
+		for(int i = 1; i <= 100; i++)
+		{
+			System.out.println("from test1: " + i + " by " + t1.getName());
+		}
+	 
+	}
+	
+	synchronized static void test2()
+	{
+		Thread t1 = Thread.currentThread();
+		
+		for(int i = 1; i <= 100; i++)
+		{
+			System.out.println("from test2: " + i + " by " + t1.getName());
+		}
+	  
+	}
+}
+class Thread1 extends Thread
+{
+	@Override
+	public void run() {
+		A.test1();
+	}
+}
+class Thread2 extends Thread
+{
+	@Override
+	public void run() {
+		A.test1();
+	}
+}
+class M1 {
+
+	public static void main(String[] args) {
+		
+		Thread1 t1 = new Thread1();
+		t1.start();
+		
+		Thread2 t2 = new Thread2();
+		t2.start();
+	}
+}

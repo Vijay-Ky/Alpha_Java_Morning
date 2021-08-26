@@ -1,0 +1,20 @@
+package app17;
+
+class M9 {
+
+	public static void main(String[] args) {
+		//executed by main thread
+		Thread t1 = Thread.currentThread();
+		//reading default properties of main thread
+		System.out.println(t1.getName());
+		System.out.println(t1.isDaemon());
+		System.out.println(t1.getId());
+		System.out.println(t1.getPriority());
+		System.out.println(t1.getName());//main
+		t1.setName("a new name to main thread");
+		System.out.println(t1.getName());//a new name to main thread
+		System.out.println(t1.isDaemon());
+		t1.setDaemon(true);
+		System.out.println(t1.isDaemon());
+	}
+}

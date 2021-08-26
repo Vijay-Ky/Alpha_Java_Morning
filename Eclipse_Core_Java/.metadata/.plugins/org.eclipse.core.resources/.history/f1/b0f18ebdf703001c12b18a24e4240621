@@ -1,0 +1,25 @@
+package app17;
+
+class R extends Thread
+{
+	@Override
+	public void run() {
+		for(int i = 1; i <= 100; i++)
+		{
+			System.out.println(i);
+		}
+	}
+}
+class M21 {
+
+	public static void main(String[] args) {
+		R r1 = new R();
+		r1.setDaemon(true);
+		r1.start();
+		System.out.println("done");
+	}
+}
+/*
+ * only main thread priority is 5
+ * child thread priority is the priority of its parent thread
+ */
